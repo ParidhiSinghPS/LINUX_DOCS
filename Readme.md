@@ -243,11 +243,11 @@ Let’s take a moment to review all of the above options in detail.
 
 ## LINUX DISTRIBUTION (OPERATING SYSTEM) NAMES:-
 A few popular names:
-1.Redhat Enterprise Linux
-2.Fedora Linux
-3.Debian Linux
-4.Suse Enterprise Linux
-5.Ubuntu Linux
+- 1.Redhat Enterprise Linux
+- 2.Fedora Linux
+- 3.Debian Linux
+- 4.Suse Enterprise Linux
+- 5.Ubuntu Linux
 
 ## COMMON THINGS BETWEEN LINUX AND UNIX :-
 - Both share many common applications such as:
