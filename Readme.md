@@ -123,53 +123,53 @@ There are several reasons why one might choose to use Linux:
 - (Press F12 for the boot menu on most computers. If not, try Escape, F2, or F10. Look for a quick message when your computer starts to know which key to press.)
 
 - Once the installer starts up, you'll be asked to select your language.
-<img src ="/home/adi/Paridhi_Intern/linux/ASSESTS/choose language.jpeg" alt="choose language">
+<img src ="/ASSESTS/choose language.jpeg" alt="choose language">
 
 - Then, you'll be given the option to choose any accessibility settings you need.
-<imf src ="/home/adi/Paridhi_Intern/linux/ASSESTS/accessibilit.jpeg">
+<imf src ="/ASSESTS/accessibilit.jpeg">
 - Your keyboard layout.
-<img src ="/home/adi/Paridhi_Intern/linux/ASSESTS/keyboard layout.jpeg">
+<img src ="/ASSESTS/keyboard layout.jpeg">
 - Next, you'll connect to your network. This lets Ubuntu download updates and third-party drivers, like NVIDIA graphics drivers, while it installs.
-<img src ="/home/adi/Paridhi_Intern/linux/ASSESTS/internet connection.jpeg">
+<img src ="/ASSESTS/internet connection.jpeg">
 - Next, you'll have the option to either try or install Ubuntu.
 (If you click "Try Ubuntu," you can test out Ubuntu without making any changes to your computer. You can go back to the installer menu anytime by clicking the "Install Ubuntu" shortcut on the desktop)
-<img src = "/home/adi/Paridhi_Intern/linux/ASSESTS/try to install.jpeg">
+<img src = "/ASSESTS/try to install.jpeg">
 - To proceed, click Install Ubuntu.
 (Some PCs use Intel RST (Rapid Storage Technology), which Ubuntu doesn't support. If you see this message, you won't be able to continue unless you disable RST in your computer's BIOS menu. For help, visit help.ubuntu.com/rst.)
 
 ### PART 4:- Installation Setup
 When installing Ubuntu, you'll be asked to choose between Interactive and Automated installation. Interactive is the usual choice where you guide the installation step by step. Advanced users might prefer Automated installation. This option lets you use a configuration file from a web server to set up multiple installations in a standard way. It also allows for additional customizations.
-<img src ="/home/adi/Paridhi_Intern/linux/ASSESTS/types of installation.jpeg">
+<img src ="/ASSESTS/types of installation.jpeg">
 
 - When installing Ubuntu, you'll choose between Default and Extended selections. The Default option gives you the essentials to start with, and you can add more apps later from the App Center. The Extended option includes extra office tools and utilities, handy when you're offline.
-<img src ="/home/adi/Paridhi_Intern/linux/ASSESTS/application.jpeg">
+<img src ="/ASSESTS/application.jpeg">
 
 - Check both boxes to install third-party software for better device support and media format compatibility.
-<img src = "/home/adi/Paridhi_Intern/linux/ASSESTS/optimise your computer.jpeg">
+<img src = "/ASSESTS/optimise your computer.jpeg">
 
 ### PART 5:-  Type of installation
 - Choose "Erase disk and install Ubuntu" if you want Ubuntu to be the only operating system on your hard drive.
 - If your device already has another operating system installed, you'll get options to install Ubuntu alongside it instead of replacing it.
-<img src = "/home/adi/Paridhi_Intern/linux/ASSESTS/disk setup.jpeg">
+<img src = "/ASSESTS/disk setup.jpeg">
 Let’s take a moment to review all of the above options in detail.
 
 ### Installing Ubuntu alongside another operating system.
 - If you choose this option, you'll see a simple interface to select the drive and adjust how much space Ubuntu will use, without overwriting existing files.
 - This view picks the largest partition automatically. For more control, switch to Manual partitioning below.
-<img src ="/home/adi/Paridhi_Intern/linux/ASSESTS/manual partition.jpeg">
+<img src ="/ASSESTS/manual partition.jpeg">
 
 ### Erase disk and install Ubuntu
 - If you select this option Ubuntu will take up the entire disk space on the selected drive.
-<img src ="/home/adi/Paridhi_Intern/linux/ASSESTS/earse disk.png" >
+<img src ="/ASSESTS/earse disk.png" >
 - If your PC has multiple hard drives, you can install Ubuntu alongside another OS, each on its own drive. Be careful to select the correct drive!
 - You can encrypt your entire drive for security. Before proceeding, go to Advanced features and select 'Encrypt the new Ubuntu installation.'
-<img src ="/home/adi/Paridhi_Intern/linux/ASSESTS/advanced feature.jpeg">
+<img src ="/ASSESTS/advanced feature.jpeg">
 * LVM stands for Logical Volume Management. Using LVM during setup makes it simpler to create and manage partitions after installation.
 * ZFS allows users to create storage pools that use multiple drives together. It also supports snapshots and data repair, making it a powerful choice for advanced users.
 - If you choose LVM or ZFS encryption, you'll need to create a security key. You'll need to enter this key when you start your computer before logging in with your username and password.
-<img src = "/home/adi/Paridhi_Intern/linux/ASSESTS/disk passphrase.jpeg">
+<img src = "/ASSESTS/disk passphrase.jpeg">
 - If you're using TPM-based Full Disk Encryption, after installation, you'll need to run the command `snap recovery --show-keys` to generate a recovery key.
-<img src = "/home/adi/Paridhi_Intern/linux/ASSESTS/maual partioning.png">
+<img src = "/ASSESTS/maual partioning.png">
 - If you select encryption, keep your security key safe. You can't access your data without it!
 ### Manual partitioning
 - Manual partitioning is for advanced users who want specific configurations. We won't cover detailed setups in this tutorial.
@@ -177,47 +177,47 @@ Let’s take a moment to review all of the above options in detail.
 --------------------------------------
 ### (Alert) Windows BitLocker is enabled
 -If Windows BitLocker is enabled, Ubuntu may not install safely alongside it. You'll need to disable BitLocker in Windows before restarting the Ubuntu installer.
-<img src ="/home/adi/Paridhi_Intern/linux/ASSESTS/bitlocker ended.png">
+<img src ="/ASSESTS/bitlocker ended.png">
 - You don't have to disable Windows BitLocker if you're erasing Windows entirely or using a separate, unencrypted drive for Ubuntu. More details are in the final section of this tutorial.
 
 ### PART 6:- Create Your Login Details
 - On this screen, you'll enter your name and choose a name for your computer on the network. Then, create a username and a strong password.
 - You can set your computer to log in automatically or require a password. If you travel with your device, it's best to keep "Require my password to log in" enabled for security.
-<img src ="/home/adi/Paridhi_Intern/linux/ASSESTS/create login details.jpeg">
+<img src ="/ASSESTS/create login details.jpeg">
 ### PART 7:- Choose your Location
 - Choose your location and time zone from the map screen, then click Continue. If you're connected to the internet, this information will be detected automatically.
-<img src ="/home/adi/Paridhi_Intern/linux/ASSESTS/select time zone.jpeg">
+<img src ="/ASSESTS/select time zone.jpeg">
 ### PART 8:- Ready to install
 - Clicking Next will show you a summary of your installation settings. You can review everything before clicking Install to begin the installation process.
-<img src ="/home/adi/Paridhi_Intern/linux/ASSESTS/ready to install.jpeg">
+<img src ="/ASSESTS/ready to install.jpeg">
 (If you selected to import an autoinstall configuration, you'll confirm its installation on this screen.)
 (Once you proceed, Ubuntu will begin the installation process will begin.)
 
 ### PART 9:-  Complete the Installation
 - Sit back and enjoy the slideshow as Ubuntu installs in the background!
-<img src ="/home/adi/Paridhi_Intern/linux/ASSESTS/fast and free.jpeg">
+<img src ="/ASSESTS/fast and free.jpeg">
 - Alternatively you can see a detailed output of the installation process by clicking the icon in the bottom right corner of the window.
 - Once the installation has completed, you will be prompted to restart your machine.
 - Click Restart Now.
-<img src ="/home/adi/Paridhi_Intern/linux/ASSESTS/installation completed.jpeg">
+<img src ="/ASSESTS/installation completed.jpeg">
 - When you restart, you will be prompted to remove your USB flash drive from the device. Once you’ve done this, press ENTER.
-<img src ="/home/adi/Paridhi_Intern/linux/ASSESTS/enter.png">
+<img src ="/ASSESTS/enter.png">
 - Enter your encryption password if you created one.
-<img src ="/home/adi/Paridhi_Intern/linux/ASSESTS/enter your password.png">
+<img src ="/ASSESTS/enter your password.png">
 - This is then followed by the login screen, where you can enter your username and password.
-<img src ="/home/adi/Paridhi_Intern/linux/ASSESTS/userame and password.png">
+<img src ="/ASSESTS/userame and password.png">
 - And that’s it, welcome to your new Ubuntu Desktop!
-<img src ="/home/adi/Paridhi_Intern/linux/ASSESTS/new ubuntu desktop.jpeg">
+<img src ="/ASSESTS/new ubuntu desktop.jpeg">
 - The welcome widget will help you with some additional setup options, including:
 * When you attach a free personal or paid Ubuntu Pro subscription, you get extra security patches for your device. This is only possible if you're using a long-term support (LTS) version of Ubuntu.
 * If you choose to share device information with Canonical to help make Ubuntu better, they don't collect this information by default. It's only gathered if you agree to share it.
 * Downloading additional apps from Ubuntu Software.
-<img src ="/home/adi/Paridhi_Intern/linux/ASSESTS/ready to go.jpeg">
+<img src ="/ASSESTS/ready to go.jpeg">
 
 ### PART 10:- Don’t forget to Update!
 - After installing Ubuntu, it's a good idea to update your system to make sure everything is current and running smoothly.
 - To keep your Ubuntu system up to date, use the Software Updater app. Find it in the app menu (the icon with nine squares) and it will check for and install any available updates. This ensures your system stays current and secure.
-<img src ="/home/adi/Paridhi_Intern/linux/ASSESTS/software-updater.png">
+<img src ="/ASSESTS/software-updater.png">
 - You can also update Ubuntu using the terminal.
 - Press CTRL+ALT+T to bring up a Terminal window (or click the terminal icon in the sidebar).
 - Type in:
