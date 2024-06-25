@@ -33,8 +33,13 @@ Nowadays, Linux has many versions called distributions.
 ## INTRODUCTION TO LINUX
 
 ### LINUX:-
-- Linux is a free and open-source operating system. Its main part is called the Linux kernel. It's similar to Unix, so it's often called Unix-like. Linux connects the computer hardware to the user and runs programs.
-- Linux is an operating system, like Windows or macOS, that works on computers and other devices. It's free to use, and anyone can modify or enhance it because its code is open for everyone to see and change. It's well-liked because it's very dependable, safe, and can run on lots of different devices, from computers and laptops to servers and smartphones.
+- Linux is a free and open-source operating system.
+- Its main part is called the Linux kernel.
+- It's similar to Unix, so it's often called Unix-like.
+- Linux connects the computer hardware to the user and runs programs.
+- Linux is an operating system, like Windows or macOS, that works on computers and other devices.
+- It's free to use, and anyone can modify or enhance it because its code is open for everyone to see and change.
+- It's well-liked because it's very dependable, safe, and can run on lots of different devices, from computers and laptops to servers and smartphones.
 
 ### KEY FEATUREOF LINUX:-
 - Open Source: Linux lets anyone access and modify its source code freely, allowing for customization and sharing.
@@ -57,43 +62,43 @@ There are several reasons why one might choose to use Linux:
 
 ### LINUX ADVANTAGE:- 
 1. Cost-Effective:
-        Linux and most of its software are free to use, which saves money on licensing fees.
-        You can download a wide range of high-quality software for different tasks without any cost.
+        - Linux and most of its software are free to use, which saves money on licensing fees.
+        - You can download a wide range of high-quality software for different tasks without any cost.
 
 2. Reliable and Stable:
-        Linux doesn't need frequent reboots to maintain its performance.
-        It's less likely to freeze or slow down over time due to memory issues compared to other operating systems.
-        It can run continuously for long periods without needing a restart.
+        - Linux doesn't need frequent reboots to maintain its performance.
+        - It's less likely to freeze or slow down over time due to memory issues compared to other operating systems.
+        - It can run continuously for long periods without needing a restart.
 
 3. Performance:
-        Linux delivers consistent high performance, whether on individual computers or across networks.
-        It handles multiple users simultaneously without slowing down.
-        It's efficient enough to make older computers functional again.
+        - Linux delivers consistent high performance, whether on individual computers or across networks.
+        - It handles multiple users simultaneously without slowing down.
+        - It's efficient enough to make older computers functional again.
 
 4. Network Capabilities:
-        Linux was designed with strong support for networking tasks.
-        It's easy to set up both client and server systems on Linux platforms.
-        Tasks like network backups are faster and more reliable compared to other systems.
+        - Linux was designed with strong support for networking tasks.
+        - It's easy to set up both client and server systems on Linux platforms.
+        - Tasks like network backups are faster and more reliable compared to other systems.
 
 5. Versatility:
-        Linux can be used for various purposes, from running powerful servers to desktop computers and even embedded systems.
-        You can customize installations to include only the software components you need, which saves disk space.
-        It allows selective installation of specific applications rather than entire software packages.
+        - Linux can be used for various purposes, from running powerful servers to desktop computers and even embedded systems.
+        - You can customize installations to include only the software components you need, which saves disk space.
+        - It allows selective installation of specific applications rather than entire software packages.
 
 6. Compatibility:
-        Linux runs software developed for Unix systems.
-        It supports a wide range of file formats commonly used across different computing platforms.
+        - Linux runs software developed for Unix systems.
+        - It supports a wide range of file formats commonly used across different computing platforms.
 
 ### LINUX DIFFERENCE BETWEEN UNIX AND LINUX
 
-| Aspect          |           LINUX                                 |   UNIX                                        |
-|--------------   |-----------------------------------------------  |--------------------------------                       |
-|Definition       | OS which is freely available                    | OS which can be only used by its copyrighters.|
-|Examples         | Linux has different versions called distros     | IBM AIX, HP-UX and Sun Solaris.                                                            |
-|Operating system | Linux is just the kernel.                       | Unix is a complete package of O.Sperating system.                                                             |
-|Usage            | Servers,PC,tablets to mainframes & supercomp.   | Servers, workstations and PCs.                              |
-|Cost             | It is freely distributed and downloaded         | Different costs for their respective Unix OS.               |
-|Support 	  | Linux supports more file system than Unix.      | It also supports file system but lesser than Linux.            |                 
+| Aspect          |           LINUX                                  |   UNIX                                        |
+|--------------   |-----------------------------------------------   |--------------------------------                       |
+|Definition       | OS which is freely available.                    | OS which can be only used by its copyrighters.|
+|Examples         | Linux has different versions called distros      | IBM AIX, HP-UX and Sun Solaris.                                                            |
+|Operating system | Linux is just the kernel.                        | Unix is a complete package of O.Sperating system.                                                             |
+|Usage            | Servers,PC,tablets to mainframes & supercomp.    | Servers, workstations and PCs.                              |
+|Cost             | It is freely distributed and downloaded.         | Different costs for their respective Unix OS.               |
+|Support 	  | Linux supports more file system than Unix.       | It also supports file system but lesser than Linux.            |                 
 
 ## INSTALLATION AND SETUP
 
@@ -104,24 +109,25 @@ There are several reasons why one might choose to use Linux:
 - There are many different Linux distributions to choose from.
 
 ### PART 1:- Creating a Bootable USB Drive
-- Download an ISO file for a Linux distribution. There are many different Linux distributions available, each designed for specific purposes. Visit the official website of the distribution you want and download the ISO file. Here are some Linux distributions you can choose from:
+- Download an ISO file for a Linux distribution.
+- There are many different Linux distributions available, each designed for specific purposes.
+- Visit the official website of the distribution you want and download the ISO file. Here are some Linux distributions you can choose from:
 
 - Ubuntu: Ubuntu is one of the most popular Linux distributions. It is user-friendly and easy to learn, making it suitable for both experienced and beginner Linux users. You can download Ubuntu from: [https://ubuntu.com/download/desktop]
 
 ### PART 2:- Create a Bootable USB stick
-- To install Ubuntu Desktop, you need to use special software to write the downloaded ISO file to a USB stick, creating the installation media. Simply copying the ISO file to the USB stick won't work.
-
-- For this tutorial, we'll use balenaEtcher because it works on Linux, Windows, and Mac OS. Download and install the version of balenaEtcher that matches your current operating system.
-
+- To install Ubuntu Desktop, you need to use special software to write the downloaded ISO file to a USB stick, creating the installation media.
+- Simply copying the ISO file to the USB stick won't work.
+- We'll use balenaEtcher because it works on Linux, Windows, and Mac OS.
+- Download and install the version of balenaEtcher that matches your current operating system.
 - Select the ISO file you downloaded, choose your USB flash drive, and then click "Flash!" to create the installation media.
-
-
+- 
 ### PART 3:-Boot from USB flash drive
 - Insert the USB flash drive into the laptop or PC you want to use to install Ubuntu. 
 - Then, either turn on the device or restart it. It should detect the USB drive automatically. 
 - If it doesn't, hold down the F12 key while the computer is starting up and choose the USB drive from the boot menu.
 - (Press F12 for the boot menu on most computers. If not, try Escape, F2, or F10. Look for a quick message when your computer starts to know which key to press.)
-
+  
 - Once the installer starts up, you'll be asked to select your language.
 <img src ="/ASSESTS/choose language.jpeg" alt="choose language">
 
@@ -138,10 +144,15 @@ There are several reasons why one might choose to use Linux:
 (Some PCs use Intel RST (Rapid Storage Technology), which Ubuntu doesn't support. If you see this message, you won't be able to continue unless you disable RST in your computer's BIOS menu. For help, visit help.ubuntu.com/rst.)
 
 ### PART 4:- Installation Setup
-When installing Ubuntu, you'll be asked to choose between Interactive and Automated installation. Interactive is the usual choice where you guide the installation step by step. Advanced users might prefer Automated installation. This option lets you use a configuration file from a web server to set up multiple installations in a standard way. It also allows for additional customizations.
+- When installing Ubuntu, you'll be asked to choose between Interactive and Automated installation.
+- Interactive is the usual choice where you guide the installation step by step.
+- Advanced users might prefer Automated installation. This option lets you use a configuration file from a web server to set up multiple installations in a standard way.
+- It also allows for additional customizations.
 <img src ="/ASSESTS/types of installation.jpeg">
 
-- When installing Ubuntu, you'll choose between Default and Extended selections. The Default option gives you the essentials to start with, and you can add more apps later from the App Center. The Extended option includes extra office tools and utilities, handy when you're offline.
+- When installing Ubuntu, you'll choose between Default and Extended selections.
+- The Default option gives you the essentials to start with, and you can add more apps later from the App Center.
+- The Extended option includes extra office tools and utilities, handy when you're offline.
 <img src ="/ASSESTS/application.jpeg">
 
 - Check both boxes to install third-party software for better device support and media format compatibility.
