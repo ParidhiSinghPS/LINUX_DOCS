@@ -62,32 +62,32 @@ There are several reasons why one might choose to use Linux:
 
 ### LINUX ADVANTAGE:- 
 1. Cost-Effective:
-        - Linux and most of its software are free to use, which saves money on licensing fees. 
-        - You can download a wide range of high-quality software for different tasks without any cost.
+        Linux and most of its software are free to use, which saves money on licensing fees. 
+        You can download a wide range of high-quality software for different tasks without any cost.
 
 2. Reliable and Stable:
-        - Linux doesn't need frequent reboots to maintain its performance.
-        - It's less likely to freeze or slow down over time due to memory issues compared to other operating systems.
-        - It can run continuously for long periods without needing a restart.
+        Linux doesn't need frequent reboots to maintain its performance.
+        It's less likely to freeze or slow down over time due to memory issues compared to other operating systems.
+        It can run continuously for long periods without needing a restart.
 
 3. Performance:
-        - Linux delivers consistent high performance, whether on individual computers or across networks.
-        - It handles multiple users simultaneously without slowing down.
-        - It's efficient enough to make older computers functional again.
+        Linux delivers consistent high performance, whether on individual computers or across networks.
+        It handles multiple users simultaneously without slowing down.
+        It's efficient enough to make older computers functional again.
 
 4. Network Capabilities:
-        - Linux was designed with strong support for networking tasks.
-        - It's easy to set up both client and server systems on Linux platforms.
-        - Tasks like network backups are faster and more reliable compared to other systems.
+        Linux was designed with strong support for networking tasks.
+        It's easy to set up both client and server systems on Linux platforms.
+        Tasks like network backups are faster and more reliable compared to other systems.
 
 5. Versatility:
-        - Linux can be used for various purposes, from running powerful servers to desktop computers and even embedded systems.
-        - You can customize installations to include only the software components you need, which saves disk space.
-        - It allows selective installation of specific applications rather than entire software packages.
+        Linux can be used for various purposes, from running powerful servers to desktop computers and even embedded systems.
+        You can customize installations to include only the software components you need, which saves disk space.
+        It allows selective installation of specific applications rather than entire software packages.
 
 6. Compatibility:
-        - Linux runs software developed for Unix systems.
-        - It supports a wide range of file formats commonly used across different computing platforms.
+        Linux runs software developed for Unix systems.
+        It supports a wide range of file formats commonly used across different computing platforms.
 
 ### LINUX DIFFERENCE BETWEEN UNIX AND LINUX
 
