@@ -106,7 +106,7 @@ There are several reasons why one might choose to use Linux:
 ### PART 1:- Creating a Bootable USB Drive
 - Download an ISO file for a Linux distribution. There are many different Linux distributions available, each designed for specific purposes. Visit the official website of the distribution you want and download the ISO file. Here are some Linux distributions you can choose from:
 
--Ubuntu: Ubuntu is one of the most popular Linux distributions. It is user-friendly and easy to learn, making it suitable for both experienced and beginner Linux users. You can download Ubuntu from: [https://ubuntu.com/download/desktop]
+- Ubuntu: Ubuntu is one of the most popular Linux distributions. It is user-friendly and easy to learn, making it suitable for both experienced and beginner Linux users. You can download Ubuntu from: [https://ubuntu.com/download/desktop]
 
 ### PART 2:- Create a Bootable USB stick
 - To install Ubuntu Desktop, you need to use special software to write the downloaded ISO file to a USB stick, creating the installation media. Simply copying the ISO file to the USB stick won't work.
@@ -176,7 +176,7 @@ Let’s take a moment to review all of the above options in detail.
 - Here, users can view all existing drives and partitions, and create and manage new partition setups and configurations.
 --------------------------------------
 ### (Alert) Windows BitLocker is enabled
--If Windows BitLocker is enabled, Ubuntu may not install safely alongside it. You'll need to disable BitLocker in Windows before restarting the Ubuntu installer.
+- If Windows BitLocker is enabled, Ubuntu may not install safely alongside it. You'll need to disable BitLocker in Windows before restarting the Ubuntu installer.
 <img src ="/ASSESTS/bitlocker ended.png">
 - You don't have to disable Windows BitLocker if you're erasing Windows entirely or using a separate, unencrypted drive for Ubuntu. More details are in the final section of this tutorial.
 
