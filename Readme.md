@@ -1,5 +1,5 @@
 # LINUX
-<img src ="/home/adi/Paridhi_Intern/linux/Linux.jpeg">
+<img src ="/ASSESTS/Linux.jpeg">
 
 # TABLE OF CONTENT
 - Introduction to Linux
