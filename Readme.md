@@ -62,7 +62,7 @@ There are several reasons why one might choose to use Linux:
 
 ### LINUX ADVANTAGE:- 
 1. Cost-Effective:
-        - Linux and most of its software are free to use, which saves money on licensing fees.
+        - Linux and most of its software are free to use, which saves money on licensing fees. 
         - You can download a wide range of high-quality software for different tasks without any cost.
 
 2. Reliable and Stable:
