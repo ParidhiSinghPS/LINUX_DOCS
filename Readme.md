@@ -192,14 +192,20 @@ Let’s take a moment to review all of the above options in detail.
 - You don't have to disable Windows BitLocker if you're erasing Windows entirely or using a separate, unencrypted drive for Ubuntu. More details are in the final section of this tutorial.
 
 ### PART 6:- Create Your Login Details
-- On this screen, you'll enter your name and choose a name for your computer on the network. Then, create a username and a strong password.
-- You can set your computer to log in automatically or require a password. If you travel with your device, it's best to keep "Require my password to log in" enabled for security.
+- On this screen, you'll enter your name and choose a name for your computer on the network.
+- Then, create a username and a strong password.
+- You can set your computer to log in automatically or require a password.
+- If you travel with your device, it's best to keep "Require my password to log in" enabled for security.
 <img src ="/ASSESTS/create login details.jpeg">
+
 ### PART 7:- Choose your Location
-- Choose your location and time zone from the map screen, then click Continue. If you're connected to the internet, this information will be detected automatically.
+- Choose your location and time zone from the map screen, then click Continue.
+- If you're connected to the internet, this information will be detected automatically.
 <img src ="/ASSESTS/select time zone.jpeg">
+
 ### PART 8:- Ready to install
-- Clicking Next will show you a summary of your installation settings. You can review everything before clicking Install to begin the installation process.
+- Clicking Next will show you a summary of your installation settings. 
+- You can review everything before clicking Install to begin the installation process.
 <img src ="/ASSESTS/ready to install.jpeg">
 (If you selected to import an autoinstall configuration, you'll confirm its installation on this screen.)
 (Once you proceed, Ubuntu will begin the installation process will begin.)
@@ -239,15 +245,15 @@ Let’s take a moment to review all of the above options in detail.
 - Type Y, then press ENTER to confirm to finish the update process.
 
 ### PART 11:- You’ve installed Ubuntu!
-- We hope you enjoy your new desktop.
+- I hope you enjoy your new desktop.
 
 ## LINUX DISTRIBUTION (OPERATING SYSTEM) NAMES:-
-A few popular names:
-- 1.Redhat Enterprise Linux
-- 2.Fedora Linux
-- 3.Debian Linux
-- 4.Suse Enterprise Linux
-- 5.Ubuntu Linux
+A few popular names:-
+- 1. Redhat Enterprise Linux
+- 2. Fedora Linux
+- 3. Debian Linux
+- 4. Suse Enterprise Linux
+- 5. Ubuntu Linux
 
 ## COMMON THINGS BETWEEN LINUX AND UNIX :-
 - Both share many common applications such as:
@@ -319,48 +325,49 @@ A few popular names:
 - Check the lines, word count, and characters in a file using different options
 
 ## LINUX FILE SYSTEM 
-- The file system hierarchy in Linux is a structure that organizes files and directories in a tree-like format. Here is a simplified overview of the key directories and their purposes:
+- The file system hierarchy in Linux is a structure that organizes files and directories in a tree-like format.
+- Here is a simplified overview of the key directories and their purposes:
 
-1. / – Root
+### 1. / – Root
 - Every single file and directory starts from the root directory.
 - Only root user has write privilege under this directory.
 - Please note that /root is root user’s home directory, which is not same as /.
 
-2. /bin – User Binaries
+### 2. /bin – User Binaries
 - Contains binary executables.
 - Common linux commands you need to use in single-user modes are located under this directory.
 - Commands used by all the users of the system are located here.
 - For example: ps, ls, ping, grep, cp.
 
-3. /sbin – System Binaries
+### 3. /sbin – System Binaries
 - Just like /bin, /sbin also contains binary executables.
 - But, the linux commands located under this directory are used typically by system aministrator, for system maintenance purpose.
 - For example: iptables, reboot, fdisk, ifconfig, swapon
 
-4. /etc – Configuration Files
+### 4. /etc – Configuration Files
 - Contains configuration files required by all programs.
 - This also contains startup and shutdown shell scripts used to start/stop individual programs.
 - For example: /etc/resolv.conf, /etc/logrotate.conf
 
-5. /dev – Device Files
+### 5. /dev – Device Files
 - Contains device files.
 - These include terminal devices, usb, or any device attached to the system.
 - For example: /dev/tty1, /dev/usbmon0
 
-6. /proc – Process Information
+### 6. /proc – Process Information
 - Contains information about system process.
 - This is a pseudo filesystem contains information about running process. For example: /proc/{pid} directory contains information about the process with that particular pid.
 - This is a virtual filesystem with text information about system resources. For example:/proc/uptime.
-7. /var – Variable Files
+### 7. /var – Variable Files
 - var stands for variable files.
 - Content of the files that are expected to grow can be found under this directory.
 - This includes — system log files (/var/log); packages and database files (/var/lib);emails (/var/mail); print queues (/var/spool); lock files (/var/lock); temp files needed across reboots (/var/tmp);
 
-8. /tmp – Temporary Files
+### 8. /tmp – Temporary Files
 - Directory that contains temporary files created by system and users.
 - Files under this directory are deleted when system is rebooted.
 
-9. /usr – User Programs
+### 9. /usr – User Programs
 - Contains binaries, libraries, documentation, and source-code for second level programs.
 - /usr/bin contains binary files for user programs. If you can’t find a user binary under
 - /bin, look under /usr/bin. For example: at, awk, cc, less, scp
@@ -368,7 +375,7 @@ A few popular names:
 - /usr/lib contains libraries for /usr/bin and /usr/sbin.
 - /usr/local contains users programs that you install from source. For example, when you install apache from source, it goes under /usr/local/apache2
 
-10. /home – Home Directories
+### 10. /home – Home Directories
 - Home directories for all users to store their personal files.
 - For example: /home/john, /home/nikita
 
