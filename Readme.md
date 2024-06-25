@@ -264,7 +264,7 @@ A few popular names:-
 5.Posix interface
 
 ## LAYERED ARCHITECTURE OF LINUX
-<img src ="/home/adi/Paridhi_Intern/linux/ASSESTS/architecture-of-linux.png">
+<img src ="/ASSESTS/architecture-of-linux.png">
 - Linux System Architecture is consists of following layers
 * Hardware layer - Hardware consists of all peripheral devices (RAM/ HDD/ CPU etc).
 * Kernel - Core component of Operating System, interacts directly with hardware,provides low level services to upper layer components.
