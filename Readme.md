@@ -94,7 +94,7 @@ There are several reasons why one might choose to use Linux:
 | Aspect          |           LINUX                                  |   UNIX                                        |
 |--------------   |-----------------------------------------------   |--------------------------------                       |
 |Definition       | OS which is freely available.                    | OS which can be only used by its copyrighters.|
-|Examples         | Linux has different versions called distros      | IBM AIX, HP-UX and Sun Solaris.                                                            |
+|Examples         | Linux has different versions called distros.     | IBM AIX, HP-UX and Sun Solaris.                                                            |
 |Operating system | Linux is just the kernel.                        | Unix is a complete package of O.Sperating system.                                                             |
 |Usage            | Servers,PC,tablets to mainframes & supercomp.    | Servers, workstations and PCs.                              |
 |Cost             | It is freely distributed and downloaded.         | Different costs for their respective Unix OS.               |
