@@ -182,14 +182,16 @@ Let’s take a moment to review all of the above options in detail.
 - If you're using TPM-based Full Disk Encryption, after installation, you'll need to run the command `snap recovery --show-keys` to generate a recovery key.
 <img src = "/ASSESTS/maual partioning.png">
 - If you select encryption, keep your security key safe. You can't access your data without it!
+- 
 ### Manual partitioning
 - Manual partitioning is for advanced users who want specific configurations. We won't cover detailed setups in this tutorial.
 - Here, users can view all existing drives and partitions, and create and manage new partition setups and configurations.
---------------------------------------
+
 ### (Alert) Windows BitLocker is enabled
-- If Windows BitLocker is enabled, Ubuntu may not install safely alongside it. You'll need to disable BitLocker in Windows before restarting the Ubuntu installer.
+- If Windows BitLocker is enabled, Ubuntu may not install safely alongside it.
+- You'll need to disable BitLocker in Windows before restarting the Ubuntu installer.
 <img src ="/ASSESTS/bitlocker ended.png">
-- You don't have to disable Windows BitLocker if you're erasing Windows entirely or using a separate, unencrypted drive for Ubuntu. More details are in the final section of this tutorial.
+- You don't have to disable Windows BitLocker if you're erasing Windows entirely or using a separate, unencrypted drive for Ubuntu. 
 
 ### PART 6:- Create Your Login Details
 - On this screen, you'll enter your name and choose a name for your computer on the network.
@@ -226,9 +228,11 @@ Let’s take a moment to review all of the above options in detail.
 - And that’s it, welcome to your new Ubuntu Desktop!
 <img src ="/ASSESTS/new ubuntu desktop.jpeg">
 - The welcome widget will help you with some additional setup options, including:
-* When you attach a free personal or paid Ubuntu Pro subscription, you get extra security patches for your device. This is only possible if you're using a long-term support (LTS) version of Ubuntu.
-* If you choose to share device information with Canonical to help make Ubuntu better, they don't collect this information by default. It's only gathered if you agree to share it.
-* Downloading additional apps from Ubuntu Software.
+- When you attach a free personal or paid Ubuntu Pro subscription, you get extra security patches for your device.
+- This is only possible if you're using a long-term support (LTS) version of Ubuntu.
+- If you choose to share device information with Canonical to help make Ubuntu better, they don't collect this information by default.
+- It's only gathered if you agree to share it.
+- Downloading additional apps from Ubuntu Software.
 <img src ="/ASSESTS/ready to go.jpeg">
 
 ### PART 10:- Don’t forget to Update!
@@ -257,19 +261,19 @@ A few popular names:-
 
 ## COMMON THINGS BETWEEN LINUX AND UNIX :-
 - Both share many common applications such as:
-1.GUI, file, and windows managers (KDE, Gnome)
-2.Shells (ksh, csh, bash)
-3.Various office applications such as OpenOffice.org
-4.Development tools (perl, php, python, GNU c/c++ compiler)
-5.Posix interface
+- 1.GUI, file, and windows managers (KDE, Gnome)
+- 2.Shells (ksh, csh, bash)
+- 3.Various office applications such as OpenOffice.org
+- 4.Development tools (perl, php, python, GNU c/c++ compiler)
+- 5.Posix interface
 
 ## LAYERED ARCHITECTURE OF LINUX
 <img src ="/ASSESTS/architecture-of-linux.png">
 - Linux System Architecture is consists of following layers
-* Hardware layer - Hardware consists of all peripheral devices (RAM/ HDD/ CPU etc).
-* Kernel - Core component of Operating System, interacts directly with hardware,provides low level services to upper layer components.
-* Shell - An interface to kernel, hiding complexity of kernel's functions from users. Takes commands from user and executes kernel's functions.
-* Utilities - Utility programs giving user most of the functionalities of an operating systems.
+- Hardware layer - Hardware consists of all peripheral devices (RAM/ HDD/ CPU etc).
+- Kernel - Core component of Operating System, interacts directly with hardware,provides low level services to upper layer components.
+- Shell - An interface to kernel, hiding complexity of kernel's functions from users. Takes commands from user and executes kernel's functions.
+- Utilities - Utility programs giving user most of the functionalities of an operating systems.
 
 ## BASIC COMMANDS OF LINUX
 - 25 Basic Linux Commands For Beginners:-
@@ -395,31 +399,31 @@ A few popular names:-
 - Linux is a powerful operating system that often requires commands for effective use. 
 - Some commands are restricted to regular users because they are very powerful. 
 - Here are the most useful networking commands every Linux user should know:
-1. ifconfig/ip: Check and set up network connections.
-2. ping: Check if another computer is reachable.
-3. netstat: See network connections and stats.
-4. traceroute: Track the path to a network host.
-5. nslookup/dig: Look up DNS information for domain names.
-6. scp: Securely copy files between computers.
-7. ssh: Securely connect to another computer.
-8. ftp/sftp: Transfer files to and from another computer.
-9. curl/wget: Download files from the internet.
-10. iptables: Set up firewall rules.
-11. nmap: Scan and explore networks.
-12. hostname: Show or change the computer’s name.
-13. route: Show or change the IP routing table.
-14. whois: Get information about domain names.
-15. tcpdump: Capture and analyze network traffic.
+- 1. ifconfig/ip: Check and set up network connections.
+- 2. ping: Check if another computer is reachable.
+- 3. netstat: See network connections and stats.
+- 4. traceroute: Track the path to a network host.
+- 5. nslookup/dig: Look up DNS information for domain names.
+- 6. scp: Securely copy files between computers.
+- 7. ssh: Securely connect to another computer.
+- 8. ftp/sftp: Transfer files to and from another computer.
+- 9. curl/wget: Download files from the internet.
+- 10. iptables: Set up firewall rules.
+- 11. nmap: Scan and explore networks.
+- 12. hostname: Show or change the computer’s name.
+- 13. route: Show or change the IP routing table.
+- 14. whois: Get information about domain names.
+- 15. tcpdump: Capture and analyze network traffic.
 
 ## LINUX UTILITIES 
 1. File Handling
 - utilities: Cat
 - Command: cat linux command concatenates files and print it on the standard output.
-- SYNTAX:
+### - SYNTAX:
   The Syntax
   is
   cat [OPTIONS] [FILE]..
-- OPTIONS:
+### - OPTIONS:
 -A Show all.
 -b Omits line numbers for blank space in the output.
 -e A $ character will be printed at the end of each line prior to a new line.
@@ -428,20 +432,20 @@ A few popular names:-
 -s If the output has multiple empty lines it replaces it with one empty line. 
 -T Displays the tab characters in the output.
 -Non-printing characters (with the exception of tabs, new-lines and form-feeds)-v are printed visibly.
-- Example:
-To Create a new file:
+### - Example:
+### To Create a new file:
           cat > file1.txt
           This command creates a new file file1.txt. After typing into the file press control+d
           (^d) simultaneously to end the file.
-1. To Append data into the
+### 1. To Append data into the
      file: cat >> file1.txt
 - To append data into the same file use append operator >> to write into the file,
 else the file will be overwritten (i.e., all of its contents will be erased).
-2. To display a
+### 2. To display a
          file: cat
          file1.txt
          This command displays the data in the file.
-3. To concatenate several files and
+### 3. To concatenate several files and
         display: cat file1.txt file2.txt
 
 - The above cat command will concatenate the two files (file1.txt and file2.txt) and it will display the output in the screen. Some times the output may not fit the monitor screen. In such situation you can print those files in a new file or display the file using less command.
@@ -449,15 +453,15 @@ cat file1.txt file2.txt | less
 4. To concatenate several files and to transfer the output to another file. cat file1.txt file2.txt > file3.txt.
 In the above example the output is redirected to new file file3.txt. The cat command will create new file file3.txt and store the concatenated output into file3.txt
 
-2. rm COMMAND: rm linux command is used to remove/delete the file from the directory.
-- SYNTAX:
+### 2. rm COMMAND: rm linux command is used to remove/delete the file from the directory.
+### - SYNTAX:
         The Syntax is
              rm [options..] [file | directory]
-- OPTIONS:
+### - OPTIONS:
 -f Remove all files in a directory without prompting the user.
 -i Interactive. With this option, rm prompts for confirmation before removing any files.
 -r (or) -R Recursively remove directories and subdirectories in the argument list. The directory will be emptied of files and removed. The user is normally prompted for removal of any write-protected files which the directory contains.
-- EXAMPLE:
+### - EXAMPLE:
 1. To Remove / Delete a
          file: rm file1.txt
          Here rm command will remove/delete the file file1.txt.
@@ -492,20 +496,20 @@ In the above example the output is redirected to new file file3.txt. The cat com
             -Command: vi filename or vim filename
 
 ## USERS AND GROUPS
-* USERS:- A person who use the computer.
+-  USERS:- A person who use the computer.
 1. PREVILEGE USER:- It is a Super user and it has a full power.
 2. NON-PREVILEGE USER:- It has a less power.
 3. SYSTEM USER:- It make automatically.
 
 Question 1- How to make a user ?
-# useradd or #adduser
+- # useradd or #adduser
 Question 2 :- How to create the password for user ?
-# passwd(user name)
+- # passwd(user name)
 Qusetion 3:- How to delete the user but keep the data ?
-# userdel(user name)
+- # userdel(user name)
 Question 4:-How to create a group ?
-# groupadd (group name)
-# groupdel (grroup name)
+- # groupadd (group name)
+- # groupdel (grroup name)
 
 ## PARTITION 
 - What is a Partition?
