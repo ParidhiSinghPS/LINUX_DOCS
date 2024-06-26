@@ -465,8 +465,10 @@ else the file will be overwritten (i.e., all of its contents will be erased).
 ### 3. To concatenate several files and
         display: cat file1.txt file2.txt
 
-- The above cat command will concatenate the two files (file1.txt and file2.txt) and it will display the output in the screen. Some times the output may not fit the monitor screen. In such situation you can print those files in a new file or display the file using less command.
-cat file1.txt file2.txt | less
+- The above cat command will concatenate the two files (file1.txt and file2.txt) and it will display the output in the screen.
+- Some times the output may not fit the monitor screen.
+- In such situation you can print those files in a new file or display the file using less command.
+       cat file1.txt file2.txt | less
 ### 4. To concatenate several files and to transfer the output to another file. cat file1.txt file2.txt > file3.txt.
         The output is redirected to new file file3.txt. 
         The cat command will create new file file3.txt and store the concatenated output into file3.txt
@@ -524,8 +526,9 @@ cat file1.txt file2.txt | less
 
 ## PARTITION 
 - What is a Partition?
-  A partition is a way to divide a hard disk drive (HDD) or solid-state drive (SSD) into separate sections. Each section acts like an independent drive.
-- Types of Partitions
+- A partition is a way to divide a hard disk drive (HDD) or solid-state drive (SSD) into separate sections. Each section acts like an independent drive.
+  
+### - Types of Partitions
 
     1. Primary Partitions:
         - You can have up to 4 primary partitions on a single disk.
