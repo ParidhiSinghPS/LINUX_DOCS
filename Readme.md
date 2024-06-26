@@ -564,3 +564,9 @@ else the file will be overwritten (i.e., all of its contents will be erased).
     - Searches for specific text patterns within files. For example, grep "search_term" looks for occurrences of "search_term" in the specified file.
 ### man (Manual): 
     - Displays the manual page for a specific command. man provides detailed information and documentation about the command.
+
+## REFRENCE lINKS
+- https://www.geeksforgeeks.org/linux-history/
+- https://www.geeksforgeeks.org/basic-linux-commands/
+- https://www.javatpoint.com/linux-networking-commands
+- https://www.javatpoint.com/architecture-of-linux
