@@ -162,7 +162,6 @@ There are several reasons why one might choose to use Linux:
 - Choose "Erase disk and install Ubuntu" if you want Ubuntu to be the only operating system on your hard drive.
 - If your device already has another operating system installed, you'll get options to install Ubuntu alongside it instead of replacing it.
 <img src = "/ASSESTS/disk setup.jpeg">
-Let’s take a moment to review all of the above options in detail.
 
 ### Installing Ubuntu alongside another operating system.
 - If you choose this option, you'll see a simple interface to select the drive and adjust how much space Ubuntu will use, without overwriting existing files.
@@ -175,14 +174,14 @@ Let’s take a moment to review all of the above options in detail.
 - If your PC has multiple hard drives, you can install Ubuntu alongside another OS, each on its own drive. Be careful to select the correct drive!
 - You can encrypt your entire drive for security. Before proceeding, go to Advanced features and select 'Encrypt the new Ubuntu installation.'
 <img src ="/ASSESTS/advanced feature.jpeg">
-* LVM stands for Logical Volume Management. Using LVM during setup makes it simpler to create and manage partitions after installation.
-* ZFS allows users to create storage pools that use multiple drives together. It also supports snapshots and data repair, making it a powerful choice for advanced users.
+- LVM stands for Logical Volume Management. Using LVM during setup makes it simpler to create and manage partitions after installation.
+- ZFS allows users to create storage pools that use multiple drives together. It also supports snapshots and data repair, making it a powerful choice for advanced users.
 - If you choose LVM or ZFS encryption, you'll need to create a security key. You'll need to enter this key when you start your computer before logging in with your username and password.
 <img src = "/ASSESTS/disk passphrase.jpeg">
 - If you're using TPM-based Full Disk Encryption, after installation, you'll need to run the command `snap recovery --show-keys` to generate a recovery key.
 <img src = "/ASSESTS/maual partioning.png">
 - If you select encryption, keep your security key safe. You can't access your data without it!
-- 
+  
 ### Manual partitioning
 - Manual partitioning is for advanced users who want specific configurations. We won't cover detailed setups in this tutorial.
 - Here, users can view all existing drives and partitions, and create and manage new partition setups and configurations.
@@ -212,7 +211,7 @@ Let’s take a moment to review all of the above options in detail.
 (If you selected to import an autoinstall configuration, you'll confirm its installation on this screen.)
 (Once you proceed, Ubuntu will begin the installation process will begin.)
 
-### PART 9:-  Complete the Installation
+### PART 9:- Complete the Installation
 - Sit back and enjoy the slideshow as Ubuntu installs in the background!
 <img src ="/ASSESTS/fast and free.jpeg">
 - Alternatively you can see a detailed output of the installation process by clicking the icon in the bottom right corner of the window.
@@ -384,16 +383,17 @@ A few popular names:-
 - For example: /home/john, /home/nikita
 
 ## NETWORKING COMMANDS
-- These are most useful commands for quickly troubleshooting connection issues on a Linux server, such as checking if a system is connected or if a host is responding. These tools save a lot of time, especially when fixing connectivity for advanced trading systems.
+- These are most useful commands for quickly troubleshooting connection issues on a Linux server, such as checking if a system is connected or if a host is responding.
+- These tools save a lot of time, especially when fixing connectivity for advanced trading systems.
 - Finding host/domain name and IP address - hostname
-- test network connection – ping
-- getting network configuration – ifconfig
+- Test network connection – ping
+- Getting network configuration – ifconfig
 - Network connections, routing tables, interface statistics – netstat
-- query DNS lookup name – nslookup
+- Query DNS lookup name – nslookup
 - communicate with other hostname – telnet
-- outing steps that packets take to get to network host – traceroute
-- view user information – finger
-- checking status of destination host - telnet
+- Outing steps that packets take to get to network host – traceroute
+- View user information – finger
+- Checking status of destination host - telnet
 
 ## 15 MOST IMPORTANT LINUX NETWORKING COMMAND 
 - Linux is a powerful operating system that often requires commands for effective use. 
@@ -534,11 +534,19 @@ Question 4:-How to create a group ?
 
 ### Some of the essential basic shell commands in Linux include:
 
-    cd (Change Directory): Allows navigation between directories. For instance, cd moves into a specific directory, while cd .. moves up one level in the directory structure.
-    ls (List): Lists the contents of a directory. ls -l provides a detailed list with permissions, ownership, size, and modification date.
-    mkdir (Make Directory): Creates a new directory. For example, mkdir creates a directory with the specified name.
-    cp (Copy): Copies files or directories from one location to another. Syntax: cp .
-    rm (Remove): Deletes files or directories. Use rm to remove a file and rm -r for recursive deletion of directories.
-    cat (Concatenate): Displays the contents of a file in the terminal. cat shows the entire content of the specified file.
-    grep (Global Regular Expression Print): Searches for specific text patterns within files. For example, grep "search_term" looks for occurrences of "search_term" in the specified file.
-    man (Manual): Displays the manual page for a specific command. man provides detailed information and documentation about the command.
+### cd (Change Directory): 
+    - Allows navigation between directories. For instance, cd moves into a specific directory, while cd .. moves up one level in the directory structure.
+### ls (List): 
+    - Lists the contents of a directory. ls -l provides a detailed list with permissions, ownership, size, and modification date.
+### mkdir (Make Directory): 
+    - Creates a new directory. For example, mkdir creates a directory with the specified name.
+### cp (Copy): 
+    - Copies files or directories from one location to another. Syntax: cp .
+### rm (Remove): 
+    - Deletes files or directories. Use rm to remove a file and rm -r for recursive deletion of directories.
+### cat (Concatenate): 
+    - Displays the contents of a file in the terminal. cat shows the entire content of the specified file.
+### grep (Global Regular Expression Print): 
+    - Searches for specific text patterns within files. For example, grep "search_term" looks for occurrences of "search_term" in the specified file.
+### man (Manual): 
+    - Displays the manual page for a specific command. man provides detailed information and documentation about the command.
