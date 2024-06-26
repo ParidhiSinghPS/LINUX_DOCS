@@ -278,6 +278,7 @@ A few popular names:-
 
 ## LAYERED ARCHITECTURE OF LINUX
 <img src ="/ASSESTS/architecture-of-linux.png">
+
 - Linux System Architecture is consists of following layers:-
 - Hardware layer - Hardware consists of all peripheral devices (RAM/ HDD/ CPU etc).
 - Kernel - Core component of Operating System, interacts directly with hardware,provides low level services to upper layer components.
@@ -514,16 +515,6 @@ cat file1.txt file2.txt | less
 1. PREVILEGE USER:- It is a Super user and it has a full power.
 2. NON-PREVILEGE USER:- It has a less power.
 3. SYSTEM USER:- It make automatically.
-
-Question 1- How to make a user ?
-- Ans:- # useradd or #adduser
-Question 2 :- How to create the password for user ?
-- Ans:- # passwd(user name)
-Qusetion 3:- How to delete the user but keep the data ?
-- Ans:- # userdel(user name)
-Question 4:-How to create a group ?
-- Ans:- # groupadd (group name)
-- Ans:- # groupdel (grroup name)
 
 ## PARTITION 
 - What is a Partition?
