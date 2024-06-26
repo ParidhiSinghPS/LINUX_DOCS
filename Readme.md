@@ -5,7 +5,7 @@
 - Introduction to Linux
 - Installation and Setup
 - Linux Distribution
-- Common things between Linux and Unix
+- Difference between Linux and Unix
 - Architecture of Linux
 - Basic Commands
 - File System Heriarchy
