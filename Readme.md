@@ -208,8 +208,8 @@ There are several reasons why one might choose to use Linux:
 - Clicking Next will show you a summary of your installation settings. 
 - You can review everything before clicking Install to begin the installation process.
 <img src ="/ASSESTS/ready to install.jpeg">
-(If you selected to import an autoinstall configuration, you'll confirm its installation on this screen.)
-(Once you proceed, Ubuntu will begin the installation process will begin.)
+- (If you selected to import an autoinstall configuration, you'll confirm its installation on this screen.)
+- (Once you proceed, Ubuntu will begin the installation process will begin.)
 
 ### PART 9:- Complete the Installation
 - Sit back and enjoy the slideshow as Ubuntu installs in the background!
@@ -473,13 +473,13 @@ In the above example the output is redirected to new file file3.txt. The cat com
          rm command removes file1.txt and file2.txt files at the same time
 
 3. cd COMMAND:cd command is used to change the directory.
-- SYNTAX:
+### - SYNTAX:
          The Syntax is    
          cd [directory | ~ | ./ | ../ | - ]
-- OPTIONS:
+### - OPTIONS:
 -L Use the physical directory structure.
 -P Forces symbolic links.
-- EXAMPLE:
+### - EXAMPLE:
 1. cd linux-command:- This command will take you to the sub-directory(linux-command) from its parent directory.
 2. cd.. :- This will change to the parent-directory from the current working directory/sub-directory.
 3. cd ~:- This command will move to the user's home directory which is "/home/username".
@@ -502,14 +502,14 @@ In the above example the output is redirected to new file file3.txt. The cat com
 3. SYSTEM USER:- It make automatically.
 
 Question 1- How to make a user ?
-- # useradd or #adduser
+- Ans:- # useradd or #adduser
 Question 2 :- How to create the password for user ?
-- # passwd(user name)
+- Ans:- # passwd(user name)
 Qusetion 3:- How to delete the user but keep the data ?
-- # userdel(user name)
+- Ans:- # userdel(user name)
 Question 4:-How to create a group ?
-- # groupadd (group name)
-- # groupdel (grroup name)
+- Ans:- # groupadd (group name)
+- Ans:- # groupdel (grroup name)
 
 ## PARTITION 
 - What is a Partition?
