@@ -426,7 +426,7 @@ A few popular names:-
 - 15. tcpdump: Capture and analyze network traffic.
 
 ## LINUX UTILITIES 
-1. File Handling
+### 1. File Handling
 - utilities: Cat
 - Command: cat linux command concatenates files and print it on the standard output.
 ### - SYNTAX:
