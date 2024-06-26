@@ -178,12 +178,15 @@ There are several reasons why one might choose to use Linux:
 - If your PC has multiple hard drives, you can install Ubuntu alongside another OS, each on its own drive. Be careful to select the correct drive!
 - You can encrypt your entire drive for security. Before proceeding, go to Advanced features and select 'Encrypt the new Ubuntu installation.'
 <img src ="/ASSESTS/advanced feature.jpeg">
+
 - LVM stands for Logical Volume Management. Using LVM during setup makes it simpler to create and manage partitions after installation.
 - ZFS allows users to create storage pools that use multiple drives together. It also supports snapshots and data repair, making it a powerful choice for advanced users.
 - If you choose LVM or ZFS encryption, you'll need to create a security key. You'll need to enter this key when you start your computer before logging in with your username and password.
 <img src = "/ASSESTS/disk passphrase.jpeg">
+
 - If you're using TPM-based Full Disk Encryption, after installation, you'll need to run the command `snap recovery --show-keys` to generate a recovery key.
 <img src = "/ASSESTS/maual partioning.png">
+
 - If you select encryption, keep your security key safe. You can't access your data without it!
   
 ### Manual partitioning
@@ -194,6 +197,7 @@ There are several reasons why one might choose to use Linux:
 - If Windows BitLocker is enabled, Ubuntu may not install safely alongside it.
 - You'll need to disable BitLocker in Windows before restarting the Ubuntu installer.
 <img src ="/ASSESTS/bitlocker ended.png">
+
 - You don't have to disable Windows BitLocker if you're erasing Windows entirely or using a separate, unencrypted drive for Ubuntu. 
 
 ### PART 6:- Create Your Login Details
@@ -212,12 +216,14 @@ There are several reasons why one might choose to use Linux:
 - Clicking Next will show you a summary of your installation settings. 
 - You can review everything before clicking Install to begin the installation process.
 <img src ="/ASSESTS/ready to install.jpeg">
+
 - (If you selected to import an autoinstall configuration, you'll confirm its installation on this screen.)
 - (Once you proceed, Ubuntu will begin the installation process will begin.)
 
 ### PART 9:- Complete the Installation
 - Sit back and enjoy the slideshow as Ubuntu installs in the background!
 <img src ="/ASSESTS/fast and free.jpeg">
+
 - Alternatively you can see a detailed output of the installation process by clicking the icon in the bottom right corner of the window.
 - Once the installation has completed, you will be prompted to restart your machine.
 - Click Restart Now.
