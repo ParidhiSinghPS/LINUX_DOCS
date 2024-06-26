@@ -133,13 +133,17 @@ There are several reasons why one might choose to use Linux:
 
 - Then, you'll be given the option to choose any accessibility settings you need.
 <imf src ="/ASSESTS/accessibilit.jpeg">
+
 - Your keyboard layout.
 <img src ="/ASSESTS/keyboard layout.jpeg">
+
 - Next, you'll connect to your network. This lets Ubuntu download updates and third-party drivers, like NVIDIA graphics drivers, while it installs.
 <img src ="/ASSESTS/internet connection.jpeg">
+
 - Next, you'll have the option to either try or install Ubuntu.
 (If you click "Try Ubuntu," you can test out Ubuntu without making any changes to your computer. You can go back to the installer menu anytime by clicking the "Install Ubuntu" shortcut on the desktop)
 <img src = "/ASSESTS/try to install.jpeg">
+
 - To proceed, click Install Ubuntu.
 (Some PCs use Intel RST (Rapid Storage Technology), which Ubuntu doesn't support. If you see this message, you won't be able to continue unless you disable RST in your computer's BIOS menu. For help, visit help.ubuntu.com/rst.)
 
@@ -218,14 +222,19 @@ There are several reasons why one might choose to use Linux:
 - Once the installation has completed, you will be prompted to restart your machine.
 - Click Restart Now.
 <img src ="/ASSESTS/installation completed.jpeg">
+
 - When you restart, you will be prompted to remove your USB flash drive from the device. Once you’ve done this, press ENTER.
 <img src ="/ASSESTS/enter.png">
+
 - Enter your encryption password if you created one.
 <img src ="/ASSESTS/enter your password.png">
+
 - This is then followed by the login screen, where you can enter your username and password.
 <img src ="/ASSESTS/userame and password.png">
+
 - And that’s it, welcome to your new Ubuntu Desktop!
 <img src ="/ASSESTS/new ubuntu desktop.jpeg">
+
 - The welcome widget will help you with some additional setup options, including:
 - When you attach a free personal or paid Ubuntu Pro subscription, you get extra security patches for your device.
 - This is only possible if you're using a long-term support (LTS) version of Ubuntu.
@@ -238,6 +247,7 @@ There are several reasons why one might choose to use Linux:
 - After installing Ubuntu, it's a good idea to update your system to make sure everything is current and running smoothly.
 - To keep your Ubuntu system up to date, use the Software Updater app. Find it in the app menu (the icon with nine squares) and it will check for and install any available updates. This ensures your system stays current and secure.
 <img src ="/ASSESTS/software-updater.png">
+
 - You can also update Ubuntu using the terminal.
 - Press CTRL+ALT+T to bring up a Terminal window (or click the terminal icon in the sidebar).
 - Type in:
@@ -268,7 +278,7 @@ A few popular names:-
 
 ## LAYERED ARCHITECTURE OF LINUX
 <img src ="/ASSESTS/architecture-of-linux.png">
-- Linux System Architecture is consists of following layers
+- Linux System Architecture is consists of following layers:-
 - Hardware layer - Hardware consists of all peripheral devices (RAM/ HDD/ CPU etc).
 - Kernel - Core component of Operating System, interacts directly with hardware,provides low level services to upper layer components.
 - Shell - An interface to kernel, hiding complexity of kernel's functions from users. Takes commands from user and executes kernel's functions.
@@ -450,10 +460,12 @@ else the file will be overwritten (i.e., all of its contents will be erased).
 
 - The above cat command will concatenate the two files (file1.txt and file2.txt) and it will display the output in the screen. Some times the output may not fit the monitor screen. In such situation you can print those files in a new file or display the file using less command.
 cat file1.txt file2.txt | less
-4. To concatenate several files and to transfer the output to another file. cat file1.txt file2.txt > file3.txt.
-In the above example the output is redirected to new file file3.txt. The cat command will create new file file3.txt and store the concatenated output into file3.txt
+### 4. To concatenate several files and to transfer the output to another file. cat file1.txt file2.txt > file3.txt.
+        The output is redirected to new file file3.txt. 
+        The cat command will create new file file3.txt and store the concatenated output into file3.txt
 
-### 2. rm COMMAND: rm linux command is used to remove/delete the file from the directory.
+### 2. rm COMMAND: 
+                  rm linux command is used to remove/delete the file from the directory.
 ### - SYNTAX:
         The Syntax is
              rm [options..] [file | directory]
@@ -473,12 +485,14 @@ In the above example the output is redirected to new file file3.txt. The cat com
          rm command removes file1.txt and file2.txt files at the same time
 
 3. cd COMMAND:cd command is used to change the directory.
+   
 ### - SYNTAX:
          The Syntax is    
          cd [directory | ~ | ./ | ../ | - ]
 ### - OPTIONS:
 -L Use the physical directory structure.
 -P Forces symbolic links.
+
 ### - EXAMPLE:
 1. cd linux-command:- This command will take you to the sub-directory(linux-command) from its parent directory.
 2. cd.. :- This will change to the parent-directory from the current working directory/sub-directory.
