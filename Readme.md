@@ -315,8 +315,8 @@ A few popular names:-
 - Find a file in the database.
 11. touch command in Linux
 - Create empty files
-12. in command in Linux
-- Create shortcuts to other files
+12. vi command in Linux
+- Edits the file.
 13. cat command in Linux
 - Display file contents on terminal
 14. clear command in Linux
