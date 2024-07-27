@@ -411,7 +411,7 @@ A few popular names:-
 - Checking status of destination host - telnet
 
 ## How to create a file
-   We can create a file in four ways:-
+   We can create a file in two ways:-
 ### 1. cat command
 -  cat linux command concatenates files and print it on the standard output.
 ### 2. touch command
