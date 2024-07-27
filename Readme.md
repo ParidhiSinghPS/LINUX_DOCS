@@ -353,11 +353,9 @@ A few popular names:-
 - Only root user has write privilege under this directory.
 - Please note that /root is root user’s home directory, which is not same as /.
 
-### 2. /bin – User Binaries
-- Contains binary executables.
-- Common linux commands you need to use in single-user modes are located under this directory.
-- Commands used by all the users of the system are located here.
-- For example: ps, ls, ping, grep, cp.
+### 2. /boot
+- Having files used by boot loader.
+- example :- grub
 
 ### 3. /sbin – System Binaries
 - Just like /bin, /sbin also contains binary executables.
@@ -407,7 +405,7 @@ A few popular names:-
 - Getting network configuration – ifconfig
 - Network connections, routing tables, interface statistics – netstat
 - Query DNS lookup name – nslookup
-- communicate with other hostname – telnet
+- Communicate with other hostname – telnet
 - Outing steps that packets take to get to network host – traceroute
 - View user information – finger
 - Checking status of destination host - telnet
