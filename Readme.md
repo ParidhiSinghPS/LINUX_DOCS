@@ -410,111 +410,26 @@ A few popular names:-
 - View user information – finger
 - Checking status of destination host - telnet
 
-## 15 MOST IMPORTANT LINUX NETWORKING COMMAND 
-- Linux is a powerful operating system that often requires commands for effective use. 
-- Some commands are restricted to regular users because they are very powerful. 
-- Here are the most useful networking commands every Linux user should know:
-- 1. ifconfig/ip: Check and set up network connections.
-- 2. ping: Check if another computer is reachable.
-- 3. netstat: See network connections and stats.
-- 4. traceroute: Track the path to a network host.
-- 5. nslookup/dig: Look up DNS information for domain names.
-- 6. scp: Securely copy files between computers.
-- 7. ssh: Securely connect to another computer.
-- 8. ftp/sftp: Transfer files to and from another computer.
-- 9. curl/wget: Download files from the internet.
-- 10. iptables: Set up firewall rules.
-- 11. nmap: Scan and explore networks.
-- 12. hostname: Show or change the computer’s name.
-- 13. route: Show or change the IP routing table.
-- 14. whois: Get information about domain names.
-- 15. tcpdump: Capture and analyze network traffic.
-
-## LINUX UTILITIES 
-### 1. File Handling
-- utilities: Cat
-- Command: cat linux command concatenates files and print it on the standard output.
-### - SYNTAX:
-  The Syntax
-  is
-  cat [OPTIONS] [FILE]..
-### - OPTIONS:
--A Show all.
--b Omits line numbers for blank space in the output.
--e A $ character will be printed at the end of each line prior to a new line.
--E Displays a $ (dollar sign) at the end of each line.
--n Line numbers for all the output lines.
--s If the output has multiple empty lines it replaces it with one empty line. 
--T Displays the tab characters in the output.
--Non-printing characters (with the exception of tabs, new-lines and form-feeds)-v are printed visibly.
-### - Example:
-### To Create a new file:
-          cat > file1.txt
-          This command creates a new file file1.txt. After typing into the file press control+d
-          (^d) simultaneously to end the file.
-### 1. To Append data into the
-     file: cat >> file1.txt
-- To append data into the same file use append operator >> to write into the file,
-else the file will be overwritten (i.e., all of its contents will be erased).
-### 2. To display a
-         file: cat
-         file1.txt
-         This command displays the data in the file.
-### 3. To concatenate several files and
-        display: cat file1.txt file2.txt
-
-- The above cat command will concatenate the two files (file1.txt and file2.txt) and it will display the output in the screen.
-- Some times the output may not fit the monitor screen.
-- In such situation you can print those files in a new file or display the file using less command.
-       cat file1.txt file2.txt | less
-### 4. To concatenate several files and to transfer the output to another file. cat file1.txt file2.txt > file3.txt.
-        The output is redirected to new file file3.txt. 
-        The cat command will create new file file3.txt and store the concatenated output into file3.txt
-
-### 2. rm COMMAND: 
-                  rm linux command is used to remove/delete the file from the directory.
-### - SYNTAX:
-        The Syntax is
-             rm [options..] [file | directory]
-### - OPTIONS:
--f Remove all files in a directory without prompting the user.
--i Interactive. With this option, rm prompts for confirmation before removing any files.
--r (or) -R Recursively remove directories and subdirectories in the argument list. The directory will be emptied of files and removed. The user is normally prompted for removal of any write-protected files which the directory contains.
-### - EXAMPLE:
-1. To Remove / Delete a
-         file: rm file1.txt
-         Here rm command will remove/delete the file file1.txt.
-2. To delete a directory tree:
-         rm -ir tmp
-        This rm command recursively removes the contents of all subdirectories of the tmp directory, prompting you regarding the removal of each file, and then removes the tmp directory itself.
-3. To remove more files at
-         once rm file1.txt file2.txt
-         rm command removes file1.txt and file2.txt files at the same time
-
-3. cd COMMAND:cd command is used to change the directory.
-   
-### - SYNTAX:
-         The Syntax is    
-         cd [directory | ~ | ./ | ../ | - ]
-### - OPTIONS:
--L Use the physical directory structure.
--P Forces symbolic links.
-
-### - EXAMPLE:
-1. cd linux-command:- This command will take you to the sub-directory(linux-command) from its parent directory.
-2. cd.. :- This will change to the parent-directory from the current working directory/sub-directory.
-3. cd ~:- This command will move to the user's home directory which is "/home/username".
+## How to create a file
+   We can create a file in four ways:-
+### 1. cat command
+-  cat linux command concatenates files and print it on the standard output.
+### 2. touch command
+- Create an empty file.
+- Create multiple file.
+- Change a timestamp a file.
+- Update only access time of file and modify time of file.
 
 ## File Editors in Linux 
 - Command-Line Editors
 
 1. nano:-Easy to use.
         -Simple and user-friendly.
-        -Command: nano filename
+        -Command: nano filename.
 
 2. vi / vim:-Powerful, extensive shortcuts.
             -Powerful and widely used.
-            -Command: vi filename or vim filename
+            -Command: vi filename or vim filename.
 
 ## USERS AND GROUPS
 -  USERS:- A person who use the computer.
