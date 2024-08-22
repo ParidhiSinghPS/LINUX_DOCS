@@ -137,7 +137,7 @@ There are several reasons why one might choose to use Linux:
 - Your keyboard layout.
 <img src ="/ASSESTS/keyboard layout.jpeg">
 
-- Next, you'll connect to your network. This lets Ubuntu download updates and third-party drivers, like NVIDIA graphics drivers, while it installs.
+- Next, you'll connect to your network.
 <img src ="/ASSESTS/internet connection.jpeg">
 
 - Next, you'll have the option to either try or install Ubuntu.
@@ -145,7 +145,6 @@ There are several reasons why one might choose to use Linux:
 <img src = "/ASSESTS/try to install.jpeg">
 
 - To proceed, click Install Ubuntu.
-(Some PCs use Intel RST (Rapid Storage Technology), which Ubuntu doesn't support. If you see this message, you won't be able to continue unless you disable RST in your computer's BIOS menu. For help, visit help.ubuntu.com/rst.)
 
 ### PART 4:- Installation Setup
 - When installing Ubuntu, you'll be asked to choose between Interactive and Automated installation.
@@ -169,14 +168,12 @@ There are several reasons why one might choose to use Linux:
 
 ### Installing Ubuntu alongside another operating system.
 - If you choose this option, you'll see a simple interface to select the drive and adjust how much space Ubuntu will use, without overwriting existing files.
-- This view picks the largest partition automatically. For more control, switch to Manual partitioning below.
 <img src ="/ASSESTS/manual partition.jpeg">
 
 ### Erase disk and install Ubuntu
 - If you select this option Ubuntu will take up the entire disk space on the selected drive.
 <img src ="/ASSESTS/earse disk.png" >
 - If your PC has multiple hard drives, you can install Ubuntu alongside another OS, each on its own drive. Be careful to select the correct drive!
-- You can encrypt your entire drive for security. Before proceeding, go to Advanced features and select 'Encrypt the new Ubuntu installation.'
 <img src ="/ASSESTS/advanced feature.jpeg">
 
 - LVM stands for Logical Volume Management. Using LVM during setup makes it simpler to create and manage partitions after installation.
@@ -184,7 +181,6 @@ There are several reasons why one might choose to use Linux:
 - If you choose LVM or ZFS encryption, you'll need to create a security key. You'll need to enter this key when you start your computer before logging in with your username and password.
 <img src = "/ASSESTS/disk passphrase.jpeg">
 
-- If you're using TPM-based Full Disk Encryption, after installation, you'll need to run the command `snap recovery --show-keys` to generate a recovery key.
 <img src = "/ASSESTS/maual partioning.png">
 
 - If you select encryption, keep your security key safe. You can't access your data without it!
@@ -217,7 +213,7 @@ There are several reasons why one might choose to use Linux:
 - You can review everything before clicking Install to begin the installation process.
 <img src ="/ASSESTS/ready to install.jpeg">
 
-- (If you selected to import an autoinstall configuration, you'll confirm its installation on this screen.)
+- (If you selected to import an auto install configuration, you'll confirm its installation on this screen.)
 - (Once you proceed, Ubuntu will begin the installation process will begin.)
 
 ### PART 9:- Complete the Installation
@@ -241,27 +237,12 @@ There are several reasons why one might choose to use Linux:
 - And that’s it, welcome to your new Ubuntu Desktop!
 <img src ="/ASSESTS/new ubuntu desktop.jpeg">
 
-- The welcome widget will help you with some additional setup options, including:
-- When you attach a free personal or paid Ubuntu Pro subscription, you get extra security patches for your device.
-- This is only possible if you're using a long-term support (LTS) version of Ubuntu.
-- If you choose to share device information with Canonical to help make Ubuntu better, they don't collect this information by default.
-- It's only gathered if you agree to share it.
 - Downloading additional apps from Ubuntu Software.
 <img src ="/ASSESTS/ready to go.jpeg">
 
 ### PART 10:- Don’t forget to Update!
 - After installing Ubuntu, it's a good idea to update your system to make sure everything is current and running smoothly.
-- To keep your Ubuntu system up to date, use the Software Updater app. Find it in the app menu (the icon with nine squares) and it will check for and install any available updates. This ensures your system stays current and secure.
 <img src ="/ASSESTS/software-updater.png">
-
-- You can also update Ubuntu using the terminal.
-- Press CTRL+ALT+T to bring up a Terminal window (or click the terminal icon in the sidebar).
-- Type in:
-- sudo apt update
-- You will be prompted to enter your login password.
-- This will check for updates and tell you if there are any that need applying. To apply any updates, type:
-- sudo apt upgrade
-- Type Y, then press ENTER to confirm to finish the update process.
 
 ### PART 11:- You’ve installed Ubuntu!
 - I hope you enjoy your new desktop.
@@ -279,7 +260,7 @@ A few popular names:-
 - 1.GUI, file, and windows managers (KDE, Gnome)
 - 2.Shells (ksh, csh, bash)
 - 3.Various office applications such as OpenOffice.org
-- 4.Development tools (perl, php, python, GNU c/c++ compiler)
+- 4.Development tools ( php, python, GNU c/c++ compiler)
 - 5.Posix interface
 
 ## LAYERED ARCHITECTURE OF LINUX
@@ -293,7 +274,7 @@ A few popular names:-
 
 ## BASIC COMMANDS OF LINUX
 - 25 Basic Linux Commands For Beginners:-
-1. Is command in Linux
+1. ls command in Linux
 - Displays information about files in the current directory.
 2.  pwd command in Linux
 - Displays the current working directory.
@@ -311,38 +292,18 @@ A few popular names:-
 - Delete files
 9. uname command in Linux
 - Command to get basic information about the OS
-10. locate command in Linux
-- Find a file in the database.
-11. touch command in Linux
+10. touch command in Linux
 - Create empty files
-12. vi command in Linux
+11. vi command in Linux
 - Edits the file.
-13. cat command in Linux
+12. cat command in Linux
 - Display file contents on terminal
-14. clear command in Linux
+13. clear command in Linux
 - Clear terminal 
-15. ps command in Linux
+14. ps command in Linux
 - Display the processes in terminal
-16. man command in Linux
-- Access manual for all Linux commands
-17. grep command in Linux
-- Search for a specific string in an output
-18. echo command in Linux
-- Display active processes on the terminal
-19. wget command in Linux
+15. wget command in Linux
 - download files from the internet.
-20. whoami command in Linux
-- Create or update passwords for existing users
-21. sort command in Linux
-- sort the file content
-22. cal command in Linux
-- View Calendar in terminal
-23. whereis command in Linux
-- View the exact location of any command typed after this command
-24. df command in Linux
-- Check the details of the file system
-25. wc command in Linux
-- Check the lines, word count, and characters in a file using different options
 
 ## LINUX FILE SYSTEM 
 - The file system hierarchy in Linux is a structure that organizes files and directories in a tree-like format.
@@ -376,6 +337,7 @@ A few popular names:-
 - Contains information about system process.
 - This is a pseudo filesystem contains information about running process. For example: /proc/{pid} directory contains information about the process with that particular pid.
 - This is a virtual filesystem with text information about system resources. For example:/proc/uptime.
+  
 ### 7. /var – Variable Files
 - var stands for variable files.
 - Content of the files that are expected to grow can be found under this directory.
@@ -388,8 +350,8 @@ A few popular names:-
 ### 9. /usr – User Programs
 - Contains binaries, libraries, documentation, and source-code for second level programs.
 - /usr/bin contains binary files for user programs. If you can’t find a user binary under
-- /bin, look under /usr/bin. For example: at, awk, cc, less, scp
-- /usr/sbin contains binary files for system administrators. If you can’t find a system binary under /sbin, look under /usr/sbin. For example: atd, cron, sshd, useradd, userdel
+- /bin, look under /usr/bin. 
+- /usr/sbin contains binary files for system administrators. If you can’t find a system binary under /sbin, look under /usr/sbin. 
 - /usr/lib contains libraries for /usr/bin and /usr/sbin.
 - /usr/local contains users programs that you install from source. For example, when you install apache from source, it goes under /usr/local/apache2
 
@@ -405,10 +367,6 @@ A few popular names:-
 - Getting network configuration – ifconfig
 - Network connections, routing tables, interface statistics – netstat
 - Query DNS lookup name – nslookup
-- Communicate with other hostname – telnet
-- Outing steps that packets take to get to network host – traceroute
-- View user information – finger
-- Checking status of destination host - telnet
 
 ## How to create a file
    We can create a file in two ways:-
@@ -475,8 +433,6 @@ A few popular names:-
     - Displays the contents of a file in the terminal. cat shows the entire content of the specified file.
 ### grep (Global Regular Expression Print): 
     - Searches for specific text patterns within files. For example, grep "search_term" looks for occurrences of "search_term" in the specified file.
-### man (Manual): 
-    - Displays the manual page for a specific command. man provides detailed information and documentation about the command.
 
 ## REFRENCE lINKS
 - https://www.geeksforgeeks.org/linux-history/
