@@ -257,8 +257,8 @@ A few popular names:-
 
 ## COMMON THINGS BETWEEN LINUX AND UNIX :-
 - Both share many common applications such as:
-- 1.GUI, file, and windows managers (KDE, Gnome)
-- 2.Shells (ksh, csh, bash)
+- 1.GUI, file, and windows managers.
+- 2.Shells 
 - 3.Various office applications such as OpenOffice.org
 - 4.Development tools ( php, python, GNU c/c++ compiler)
 - 5.Posix interface
