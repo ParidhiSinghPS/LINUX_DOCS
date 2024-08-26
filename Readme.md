@@ -335,19 +335,18 @@ A few popular names:-
 ### 7. /var – Variable Files
 - var stands for variable files.
 - Content of the files that are expected to grow can be found under this directory.
-- This includes — system log files (/var/log); packages and database files (/var/lib);emails (/var/mail); print queues (/var/spool); lock files (/var/lock); temp files needed across reboots (/var/tmp);
-
+- This includes — system log files (/var/log); packages and database files (/var/lib);emails (/var/mail).
 ### 8. /tmp – Temporary Files
 - Directory that contains temporary files created by system and users.
 - Files under this directory are deleted when system is rebooted.
 
 ### 9. /usr – User Programs
 - Contains binaries, libraries, documentation, and source-code for second level programs.
-- /usr/bin contains binary files for user programs. If you can’t find a user binary under
+- /usr/bin contains binary files for user programs. 
 - /bin, look under /usr/bin. 
-- /usr/sbin contains binary files for system administrators. If you can’t find a system binary under /sbin, look under /usr/sbin. 
+- /usr/sbin contains binary files for system administrators.
 - /usr/lib contains libraries for /usr/bin and /usr/sbin.
-- /usr/local contains users programs that you install from source. For example, when you install apache from source, it goes under /usr/local/apache2
+- /usr/local contains users programs that you install from source. 
 
 ### 10. /home – Home Directories
 - Home directories for all users to store their personal files.
