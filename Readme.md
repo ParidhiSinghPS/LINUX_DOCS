@@ -177,8 +177,6 @@ There are several reasons why one might choose to use Linux:
 <img src ="/ASSESTS/advanced feature.jpeg">
 
 - LVM stands for Logical Volume Management. Using LVM during setup makes it simpler to create and manage partitions after installation.
-- ZFS allows users to create storage pools that use multiple drives together. It also supports snapshots and data repair, making it a powerful choice for advanced users.
-- If you choose LVM or ZFS encryption, you'll need to create a security key. You'll need to enter this key when you start your computer before logging in with your username and password.
 <img src = "/ASSESTS/disk passphrase.jpeg">
 
 <img src = "/ASSESTS/maual partioning.png">
