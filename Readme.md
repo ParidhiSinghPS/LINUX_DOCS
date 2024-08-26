@@ -314,22 +314,18 @@ A few popular names:-
 
 ### 2. /boot
 - Having files used by boot loader.
-- example :- grub
 
 ### 3. /sbin – System Binaries
 - Just like /bin, /sbin also contains binary executables.
 - But, the linux commands located under this directory are used typically by system aministrator, for system maintenance purpose.
-- For example: iptables, reboot, fdisk, ifconfig, swapon
 
 ### 4. /etc – Configuration Files
 - Contains configuration files required by all programs.
 - This also contains startup and shutdown shell scripts used to start/stop individual programs.
-- For example: /etc/resolv.conf, /etc/logrotate.conf
 
 ### 5. /dev – Device Files
 - Contains device files.
 - These include terminal devices, usb, or any device attached to the system.
-- For example: /dev/tty1, /dev/usbmon0
 
 ### 6. /proc – Process Information
 - Contains information about system process.
